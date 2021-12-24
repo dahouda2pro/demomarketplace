@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "http-server -a 44.200.71.242 -p 80",
     "start:prod": "next start -p 80",
     "lint": "next lint",
     "export": "next build && next export"
